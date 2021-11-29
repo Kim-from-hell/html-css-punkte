@@ -1,0 +1,90 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+h1 {
+
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    position: absolute;
+    top: 1px; 
+    left: 20px;
+    background-color:transparent; 
+}
+
+#jup {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    bottom: auto;
+    margin-top: -100px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+
+/* Klasse*/
+
+.right {
+    text-align: right;
+}
+
+.element {
+    position: absolute;
+    top: 5px; 
+
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+a{
+
+    text-align: left; 
+    position: absolute;
+    bottom:20px;
+    font-size: 25px;
+    right: 20px;
+
+    color:#fff;
+    text-decoration:none;
+    }
+    a:visited{
+    color:rgb(148, 240, 153);
+    text-decoration: none;	
+    }
+     a:active{
+    color:#ffffff;
+    text-decoration: none;	
+    }
+    a:hover{
+    color:#CC5200;
+    text-decoration:underline;	
+    }
+     a:focus{
+        color:#CC5200;
+    text-decoration: none;	
+
+    @media (min-width: 800px)
+    
+    }
+.cursor {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -50%;
+    left: -50%;
+    margin: -15px 0 0 -15px;
+    border-radius: 50%;
+    background-color: white;
+    backface-visibility: hidden;
+    transition: transform 0.2s ease-out;
+    mix-blend-mode: difference;
+    z-index: 1000;
+    pointer-events: none;
+}
